@@ -26,6 +26,8 @@
 .typography-body1 {
   font-size: 1rem;
   font-weight: 400;
+  line-height: 10px;
+  margin: 0;
 }
 .typography-caption {
   font-size: 0.75rem;
