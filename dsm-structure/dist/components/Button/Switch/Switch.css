@@ -1,0 +1,43 @@
+.switch-wrapper {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 8px;
+  }
+  
+  .switch-wrapper input {
+    display: none;
+  }
+  
+  .switch-slider {
+    width: 40px;
+    height: 20px;
+    background-color: var(--disabled-gray);
+    border-radius: 34px;
+    position: relative;
+    transition: background-color 0.2s;
+  }
+  
+  .switch-slider::before {
+    content: "";
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    transition: transform 0.2s;
+  }
+  
+  .switch-wrapper input:checked + .switch-slider {
+    background-color: var(--success-color);
+  }
+  
+  .switch-wrapper input:checked + .switch-slider::before {
+    transform: translateX(20px);
+  }
+  
+  .switch-label {
+    font-size: 14px;
+  }  
