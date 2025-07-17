@@ -7,7 +7,7 @@ exports.default = exports.Default = void 0;
 var _Switch = _interopRequireDefault(require("./Switch"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
 const meta = {
-  title: 'Example/Switch',
+  title: 'Components/Switch',
   component: _Switch.default,
   tags: ['autodocs'],
   argTypes: {

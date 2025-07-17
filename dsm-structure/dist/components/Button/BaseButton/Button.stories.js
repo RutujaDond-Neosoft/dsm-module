@@ -7,7 +7,7 @@ exports.default = exports.Success = exports.Small = exports.Secondary = exports.
 var _Button = _interopRequireDefault(require("./Button"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
 const meta = {
-  title: 'Example/Button',
+  title: 'Components/Button',
   component: _Button.default,
   parameters: {
     layout: 'centered'
